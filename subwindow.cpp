@@ -75,4 +75,5 @@ void SubWindow::saveToFile()
             save(fileName, m_headerCode);
         }
     }
+    this->accept();
 }
